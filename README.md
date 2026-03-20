@@ -2,7 +2,7 @@
 
 ## instructions:
 Please update to include: 
-- App name
+- App name: HeadSpace
 - Data collection method
 - Original dataset
 - Final cleaned dataset
