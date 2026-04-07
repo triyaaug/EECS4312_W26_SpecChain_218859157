@@ -2,11 +2,105 @@
   "groups": [
     {
       "group_id": "G1",
-      "theme": "App crashes during activity logging, THIS IS A AN EXAMPLE, PLEASE REMOVE ",
-      "review_ids": ["rev_12", "rev_33", "rev_45", "rev_89"],
+      "theme": "Lots of technical problems:App crashes and glitches during use, lots of bugs",
+      "review_ids": 
+        ["889a8581-6071-4048-a310-c26afb49795d",
+        "b9ecbe4a-2951-476b-9c0b-d61a582b5c4f"
+      , "d4d23acc-aea2-43be-94e2-d0258793cd74"
+      , "6d0be882-a490-435e-876f-372c830d84d9"
+      , "d088eee2-e8c1-43fe-9175-0fbcb2212583",
+        "3dde7f59-d44f-40ba-9501-ab3a7de6f69d",
+        "b750c41e-9d38-4c4c-86b8-b6c9a6debe5f",
+        "1dec432b-97a8-4f00-b5fa-0dbf4c0f48e5",
+        "bc45f5d6-ff1f-4c25-8602-c9ee86737aad",
+        "e301f287-6ace-4d38-b67d-7c0cb3edb2c4"],
       "example_reviews": [
-        "The app crashes every time I log my run.",
-        "Logging workouts causes the app to freeze."
+        "good app recently crashing lot anyone idea.",
+        "app crash whenever try scroll single"
+      ]
+    },
+    {
+      "group_id": "G2",
+      "theme": "A lot of features are behind paywall, no good free content",
+      "review_ids": 
+        ["fc36cf61-52aa-4982-b8e8-6b2010ad1486",
+        "a4ccacbf-b2ea-46ec-8e90-3fd7a4f15184",
+        "3e69d6c7-313c-4f65-97b1-99a40b519c38",
+        "c9c6447a-90f3-43fd-ab78-23e1b3e4db2e",
+        "b123078b-d515-4b62-9087-e14af9eddc0b",
+        "37f9dcf7-f9b0-4bc4-8e71-c511745c9750",
+        "4e6f7df7-672d-4de8-a858-6669c24943d3",
+        "a3add3fe-65a6-49d2-b2da-61b47b3d0753",
+        "07d94924-1f74-4487-9679-28f0946bf043",
+        "afd2bc8c-e3be-4d42-be0a-35dc28e0e192",
+        "1f65ee60-77e3-44c1-846f-c9511b0991fd"],
+      "example_reviews": [
+        "everything locked behind paywall three thing",
+        "unfortunate everything behind paywall want sign free trial try app first time user found apps functionality free version uninstalling one download unless willing pay"
+        
+      ]
+    },
+    {
+      "group_id": "G3",
+      "theme": "Overpriced, unexpected price changes (false advertizing), charged for full subscription after free trial",
+      "review_ids": 
+        ["a818a7e5-8c84-4cd7-b69c-62513167aa73",
+        "5dd05804-f714-43ec-88a1-dde44431fcbf", 
+        "c6d23b22-290f-4f63-8e93-66a50f52fff1",
+        "13a27745-13c7-48f1-a372-6e5ee40be8e4",
+        "5dfb4d1c-331f-4387-93e1-1897240d7f8c",
+        "f2c2c497-b4bd-4eb5-aa6a-17f965497f85",
+        "1229506b-7873-4e39-8670-4e0f14b60664",
+        "99cc6460-7439-4902-8107-422e2e737ca8",
+        "7551028a-31d8-404c-9193-f03ef7d2b381",
+        "b493d5de-4563-4a53-8b97-003552c6bd7e"
+        ],
+      "example_reviews": [
+        "sudden price increase doubled cost app notification change found subscription renewed",
+        "screen signed said first fourteen day free canceled five day later since track keep stopping minute oh dear something wrong somehow membership still active next year though canceled charged full price provided screenshot customer service said get trial explanation least sincerely apologize disappointment extremely false advertising"
+      ]
+    },
+    {
+      "group_id": "G4",
+      "theme": "Bad design/UI",
+      "review_ids": 
+        ["faf5315e-010f-4ccc-b7f9-0eda0b84927d",
+        "52f7ef78-583d-4964-a6a3-782b3744d9d3",
+        "f63cec0b-d634-47c5-83ca-876f820af26f",
+        "57b09a32-d4aa-4b2d-8b02-d66c2a3773d3",
+        "43b390b5-224f-4635-81a4-f4fb00b5f74b",
+        "141c797c-d04d-49d5-954c-25f4e57b4336",
+        "a87c08c2-155e-4769-8a94-be20322bf4a9",
+        "167c2262-e4ce-41ef-92bf-c50e87d1f100",
+        "52f7ef78-583d-4964-a6a3-782b3744d9d3",
+        "faf5315e-010f-4ccc-b7f9-0eda0b84927d"
+        ],   
+      "example_reviews": [
+        "longtime user app absolutely loved also recommended plenty people back lately discontent ui way much content super cluttered headspace basic offering powerful one loved easy navigation succinct course guidance would sincerely urge developer make simpler ui headspace user swayed new content added every month",
+        "sleepcasts great app get worse time ui freeze lot almost unusable need spend qa"
+      ]
+    },
+    {
+      "group_id": "G5",
+      "theme": "Improved their mental health",
+      "review_ids": 
+        ["49dc26f5-531d-460d-9bd8-b5a0e77ee419",
+        "b887513e-7df6-4cc1-97e8-49bbe47f9aed",
+        "13056ae5-8673-4519-ae44-cf6f72214223",
+        "b89b9812-144c-467b-9a75-cad0fe8b9c8a",
+        "d3e4736a-1aa7-4cd5-8501-1ea0805c7867",
+        "994a69f1-e765-412f-9157-fecdb4a32bd1",
+        "767ed037-efc7-41b0-8424-bb5d73a419d0",
+        "b5bc6e51-8fa9-4554-ac4d-bbec958752a2",
+        "2520bc93-1bc7-4205-af44-ef88a2dfb2f4",
+        "e79de4ef-5267-4eb0-bfdf-25a375eefd66"
+        ],   
+      "example_reviews": [
+        "using app year honestly say meditation course daily medication wake ups helped mental health lot highly recommend six year later still highly recommend updated lot honestly better great app community",
+        "incredible app get free headspace teen really helped look world positively ten ten"
       ]
     }
   ]}
+
+  
+

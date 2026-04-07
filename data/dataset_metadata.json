@@ -1,0 +1,23 @@
+{
+    "app_name": "Headspace",
+    "package_name": "com.getsomeheadspace.android",
+    "dataset_size_raw": 2564,
+    "dataset_size_cleaned": 2335,
+    "collection_method": "Scraped using google-play-scraper (reviews_all), sorted by newest, English language only.",
+    "data_files": {
+        "raw": "data/reviews_raw.jsonl",
+        "cleaned": "data/reviews_clean.jsonl"
+    },
+    "cleaning_steps": [
+        "Removed duplicate reviews based on reviewId",
+        "Removed empty reviews",
+        "Removed extremely short reviews (less than 3 words)",
+        "Converted text to lowercase",
+        "Removed punctuation",
+        "Removed special characters and emojis",
+        "Converted numbers to words",
+        "Removed extra whitespace",
+        "Removed stopwords",
+        "Lemmatized words"
+    ]
+}

@@ -1,16 +1,215 @@
-
 {
   "tests": [
     {
-      "test_id": "T_auto_1",
+      "test_id": "T1",
       "requirement_id": "FR1",
-      "scenario": "Workout Logging Stability",
+      "scenario": "Core feature stability during session playback",
       "steps": [
-        "Open the workout logging screen",
-        "Enter workout details",
-        "Submit the workout"
+        "Open the app",
+        "Select a meditation session",
+        "Start the session"
       ],
-      "expected_result": "The workout is saved successfully and the application remains stable."
+      "expected_result": "The application does not crash during session playback."
+    },
+    {
+      "test_id": "T2",
+      "requirement_id": "FR1",
+      "scenario": "Core feature stability during navigation",
+      "steps": [
+        "Open the app",
+        "Navigate between multiple screens",
+        "Scroll through content"
+      ],
+      "expected_result": "The application does not crash during navigation or scrolling."
+    },
+
+    {
+      "test_id": "T3",
+      "requirement_id": "FR2",
+      "scenario": "Access free meditation sessions",
+      "steps": [
+        "Open the app without subscribing",
+        "Browse available meditation sessions"
+      ],
+      "expected_result": "At least 5 meditation sessions are accessible without requiring payment."
+    },
+    {
+      "test_id": "T4",
+      "requirement_id": "FR2",
+      "scenario": "Play free content without subscription",
+      "steps": [
+        "Open the app",
+        "Select a free meditation session",
+        "Attempt to play it"
+      ],
+      "expected_result": "The session plays successfully without requiring a subscription."
+    },
+
+    {
+      "test_id": "T5",
+      "requirement_id": "FR3",
+      "scenario": "Receive trial ending notification",
+      "steps": [
+        "Start a free trial",
+        "Wait until 24 hours before the trial ends"
+      ],
+      "expected_result": "The user receives a notification about the upcoming subscription charge."
+    },
+    {
+      "test_id": "T6",
+      "requirement_id": "FR3",
+      "scenario": "Visibility of trial notification",
+      "steps": [
+        "Be on an active free trial",
+        "Check app notifications or alerts"
+      ],
+      "expected_result": "The notification clearly informs the user about the trial ending and upcoming charge."
+    },
+
+    {
+      "test_id": "T7",
+      "requirement_id": "FR4",
+      "scenario": "Access feature within 3 steps",
+      "steps": [
+        "Open the app",
+        "Navigate to a key feature (e.g., sleep session)"
+      ],
+      "expected_result": "The feature is accessed within 3 interactions from the home screen."
+    },
+    {
+      "test_id": "T8",
+      "requirement_id": "FR4",
+      "scenario": "Efficient navigation to features",
+      "steps": [
+        "Open the app",
+        "Attempt to locate a meditation feature"
+      ],
+      "expected_result": "The user can access the feature within 3 steps without confusion."
+    },
+
+    {
+      "test_id": "T9",
+      "requirement_id": "FR5",
+      "scenario": "Access guided wellness content",
+      "steps": [
+        "Open the app",
+        "Select a mental wellness goal"
+      ],
+      "expected_result": "Relevant guided meditation content is available."
+    },
+    {
+      "test_id": "T10",
+      "requirement_id": "FR5",
+      "scenario": "Availability of stress/anxiety content",
+      "steps": [
+        "Open the app",
+        "Browse wellness-related content"
+      ],
+      "expected_result": "Content supporting stress and anxiety management is available."
+    },
+
+    {
+      "test_id": "T11",
+      "requirement_id": "FR6",
+      "scenario": "Session loads within time limit",
+      "steps": [
+        "Open the app",
+        "Select a meditation session"
+      ],
+      "expected_result": "The session starts within 3 seconds."
+    },
+    {
+      "test_id": "T12",
+      "requirement_id": "FR6",
+      "scenario": "Consistent loading performance",
+      "steps": [
+        "Open multiple meditation sessions consecutively"
+      ],
+      "expected_result": "Each session loads within 3 seconds."
+    },
+
+    {
+      "test_id": "T13",
+      "requirement_id": "FR7",
+      "scenario": "Search for content",
+      "steps": [
+        "Open the app",
+        "Use the search function",
+        "Enter a keyword (e.g., 'sleep')"
+      ],
+      "expected_result": "Relevant search results are displayed."
+    },
+    {
+      "test_id": "T14",
+      "requirement_id": "FR7",
+      "scenario": "Search accuracy",
+      "steps": [
+        "Search for a specific term",
+        "Review the results"
+      ],
+      "expected_result": "Results match the user’s search intent."
+    },
+
+    {
+      "test_id": "T15",
+      "requirement_id": "FR8",
+      "scenario": "Browse categorized content",
+      "steps": [
+        "Open the app",
+        "Select a category (e.g., stress)"
+      ],
+      "expected_result": "Relevant sessions for that category are displayed."
+    },
+    {
+      "test_id": "T16",
+      "requirement_id": "FR8",
+      "scenario": "Multiple categories available",
+      "steps": [
+        "Browse categories in the app"
+      ],
+      "expected_result": "Categories such as sleep, stress, and focus are available."
+    },
+
+    {
+      "test_id": "T17",
+      "requirement_id": "FR9",
+      "scenario": "Preview locked content",
+      "steps": [
+        "Open the app",
+        "Select locked content"
+      ],
+      "expected_result": "A preview or description of the content is displayed."
+    },
+    {
+      "test_id": "T18",
+      "requirement_id": "FR9",
+      "scenario": "View details before subscribing",
+      "steps": [
+        "Browse locked sessions",
+        "Click on one"
+      ],
+      "expected_result": "User can view details without subscribing."
+    },
+
+    {
+      "test_id": "T19",
+      "requirement_id": "FR10",
+      "scenario": "Cancel subscription",
+      "steps": [
+        "Open subscription settings",
+        "Select cancel subscription"
+      ],
+      "expected_result": "The subscription is successfully cancelled."
+    },
+    {
+      "test_id": "T20",
+      "requirement_id": "FR10",
+      "scenario": "No charge after cancellation",
+      "steps": [
+        "Cancel the subscription",
+        "Wait until the next billing cycle"
+      ],
+      "expected_result": "No additional charges are applied."
     }
   ]
 }

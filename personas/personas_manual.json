@@ -1,22 +1,125 @@
 {  "personas": [
     {
       "id": "P1",
-      "name": "Frequent Activity Tracker",
-      "description": "A user who relies on the app to log workouts frequently and expects stable performance.",
+      "name": "Frustated Regular user",
+      "description": "A user who frequently uses the app for meditation but experiences crashes and glitches.",
       "derived_from_group": "G1",
       "goals": [
-        "Track workouts consistently",
-        "Log activity quickly"      ],
+        "Use meditation sessions without interruption",
+        "Reliably access content daily"     ],
       "pain_points": [
-        "App crashes during logging",
-        "Workout data sometimes disappears"      ],
+        "App crashes during sessions",
+        "Glitches when navigating or scrolling"   ],
       "context": [
-        "Logging activities immediately after workouts",
-        "Using the app during outdoor exercise"      ],
+        "Using the app daily for meditation",
+        "Accessing sessions during routine times (morning/night)"    ],
       "constraints": [
         "Logging must be reliable",
         "Data should not be lost"       ],
       "evidence_reviews": [
         "rev_12",
         "rev_45"      ]
-    }  ] }
+    },
+    {
+      "id": "P2",
+      "name": "Paywall Blocked Free User",
+      "description": "A user who wants to try the contents of the app but is limited by paywalls.",
+      "derived_from_group": "G2",
+      "goals": [
+        "Explore the app before committing to payment",
+        "Access basic meditation content for free"
+      ],
+      "pain_points": [
+        "Too many features locked behind a subscription",
+        "Cannot evaluate the app properly without paying"
+      ],
+      "context": [
+        "Trying the app for the first time",
+        "Browsing available content without subscribing"
+      ],
+      "constraints": [
+        "Needs access to some free content",
+        "Unwilling to pay before trying the app"
+      ],
+      "evidence_reviews": [
+        
+      ]
+    },
+    {
+      "id": "P3",
+      "name": "Prices Concerned Subscriber",
+      "description": "A user who is worried about unexpected charges and full subscription fees and unclear subscription policies.",
+      "derived_from_group": "G3",
+      "goals": [
+        "Understand subscription pricing clearly",
+        "Avoid unexpected charges"
+      ],
+      "pain_points": [
+        "Charged after free trial without clear notice",
+        "Misleading or high pricing"
+      ],
+      "context": [
+        "Using a free trial",
+        "Managing subscription settings"
+      ],
+      "constraints": [
+        "Needs clear billing communication",
+        "Must be notified before charges occur"
+      ],
+      "evidence_reviews": [
+        
+      ]
+    },
+    {
+      "id": "P4",
+      "name": "Overwhelmed User",
+      "description": "A user who finds the app interface cluttered and difficult to navigate.",
+      "derived_from_group": "G4",
+      "goals": [
+        "Find and access features easily",
+        "Navigate the app efficiently"
+      ],
+      "pain_points": [
+        "Cluttered UI",
+        "Difficulty finding specific content"
+      ],
+      "context": [
+        "Browsing content in the app",
+        "Trying to locate specific meditation or sleep features"
+      ],
+      "constraints": [
+        "Navigation should be simple",
+        "Key features should be easy to find"
+      ],
+      "evidence_reviews": [
+        
+      ]
+    },
+    {
+      "id": "P5",
+      "name": "Mental Health Improvement Seeking User",
+      "description": "A user who uses the app to improve their mental health and well-being.",
+      "derived_from_group": "G5",
+      "goals": [
+        "Improve mental well-being",
+        "Use guided meditation regularly"
+      ],
+      "pain_points": [
+        "Needs consistent access to helpful content",
+        "Relies on app quality for personal mental health improvement"
+      ],
+      "context": [
+        "Using the app daily or regularly",
+        "Engaging with meditation and wellness content"
+      ],
+      "constraints": [
+        "Content must be available and relevant",
+        "Experience should be smooth and supportive"
+      ],
+      "evidence_reviews": [
+        
+      ]
+    }
+  ] 
+}
+
