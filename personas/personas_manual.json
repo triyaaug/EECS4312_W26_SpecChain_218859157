@@ -17,8 +17,8 @@
         "Logging must be reliable",
         "Data should not be lost"       ],
       "evidence_reviews": [
-        "rev_12",
-        "rev_45"      ]
+        "d4d23acc-aea2-43be-94e2-d0258793cd74",
+        "6d0be882-a490-435e-876f-372c830d84d9"      ]
     },
     {
       "id": "P2",
@@ -42,7 +42,8 @@
         "Unwilling to pay before trying the app"
       ],
       "evidence_reviews": [
-        
+        "fc36cf61-52aa-4982-b8e8-6b2010ad1486",
+         "a4ccacbf-b2ea-46ec-8e90-3fd7a4f15184"
       ]
     },
     {
@@ -67,7 +68,8 @@
         "Must be notified before charges occur"
       ],
       "evidence_reviews": [
-        
+        "a818a7e5-8c84-4cd7-b69c-62513167aa73",
+        "c6d23b22-290f-4f63-8e93-66a50f52fff1"
       ]
     },
     {
@@ -117,6 +119,8 @@
         "Experience should be smooth and supportive"
       ],
       "evidence_reviews": [
+        "49dc26f5-531d-460d-9bd8-b5a0e77ee419",
+        "b887513e-7df6-4cc1-97e8-49bbe47f9aed"
         
       ]
     }
