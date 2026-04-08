@@ -1,31 +1,157 @@
 {
-  "personas": [
-    {
-      "id": "P_hybrid_1",
-      "name": "Frequent Fitness Logger",
-      "description": "A user who depends on the app for regular workout tracking and expects logging to work reliably during or immediately after exercise.",
-      "derived_from_group": "H1",
-      "goals": [
-        "Log workouts quickly",
-        "Track activities without interruption"
-      ],
-      "pain_points": [
-        "The app crashes while saving workouts",
-        "Previously entered activity data may disappear"
-      ],
-      "context": [
-        "Using the app during exercise sessions",
-        "Using the app outdoors or while moving"
-      ],
-      "constraints": [
-        "Workout logging must complete without crashing",
-        "Saved workout data must persist"
-      ],
-      "evidence_reviews": [
-        "rev_12",
-        "rev_41"
-      ],
-      "notes": "Refined the persona description and removed an unsupported assumption about synchronization."
-    }
-  ]
+    "personas": [
+        {
+            "id": "P1",
+            "name": "Technical Issues",
+            "description": "A frustrated user experiencing technical issues with the meditation app, such as crashes and slow performance.",
+            "derived_from_group": "G1",
+            "goals": [
+                "To use the meditation app without technical issues",
+                "To access and download content smoothly"
+            ],
+            "pain_points": [
+                "Frequent app crashes",
+                "Slow loading times",
+                "Difficulty downloading and accessing content",
+                "Poor performance after updates"
+            ],
+            "context": [
+                "Uses the app for meditation and relaxation",
+                "Expects a seamless user experience",
+                "May have tried troubleshooting steps without success"
+            ],
+            "constraints": [
+                "Limited technical expertise",
+                "Dependence on the app for mental wellness"
+            ],
+            "evidence_reviews": [
+                "889a8581-6071-4048-a310-c26afb49795d",
+                "b9ecbe4a-2951-476b-9c0b-d61a582b5c4f",
+                "6d0be882-a490-435e-876f-372c830d84d9",
+                "d4d23acc-aea2-43be-94e2-d0258793cd74",
+                "5ca67763-7ccd-48f4-bd03-31960ae51990"
+            ],
+            "notes": "Good"
+        },
+        {
+            "id": "P2",
+            "name": "Subscription and Payment Issues",
+            "description": "A user frustrated with the app's subscription model and payment issues.",
+            "derived_from_group": "G2",
+            "goals": [
+                "To access meditation content without excessive costs",
+                "To manage subscription and payment easily"
+            ],
+            "pain_points": [
+                "High subscription costs",
+                "Unexpected charges",
+                "Difficulty managing or canceling subscription",
+                "Lack of transparency in payment and subscription details"
+            ],
+            "context": [
+                "Values affordability and flexibility in subscription services",
+                "May be sensitive to price changes and unexpected charges"
+            ],
+            "constraints": [
+                "Budget constraints",
+                "Expectation of clear and fair pricing"
+            ],
+            "evidence_reviews": [
+                "fc36cf61-52aa-4982-b8e8-6b2010ad1486",
+                "a818a7e5-8c84-4cd7-b69c-62513167aa73",
+                "5dd05804-f714-43ec-88a1-dde44431fcbf",
+                "a4ccacbf-b2ea-46ec-8e90-3fd7a4f15184",
+                "c6d23b22-290f-4f63-8e93-66a50f52fff1"
+            ],
+            "notes": "good"
+        },
+        {
+            "id": "P3",
+            "name": "User Experiencing Positive Mental Health Benefits",
+            "description": "A user who uses the app regularly and experiences positive emotional and mental health improvements such as reduced stress and a more positive mindset.",
+            "derived_from_group": "G3",
+            "goals": [
+              "Improve mental well-being through meditation",
+              "Maintain a positive mindset"
+            ],
+            "pain_points": [
+              "Needs consistent access to effective content"
+            ],
+            "context": [
+              "Uses the app for emotional support and relaxation",
+              "Values content that improves mood and perspective"
+            ],
+            "constraints": [
+              "Relies on content quality to maintain benefits"
+            ],
+            "evidence_reviews": [
+                "d3e4736a-1aa7-4cd5-8501-1ea0805c7867",
+                "49ee2835-5764-4956-afce-3aa857ac342d",
+                "a87c08c2-155e-4769-8a94-be20322bf4a9",
+                "73496ae8-9050-4c58-b4de-8c6be4ffe6d3",
+                "0d17b761-495b-434a-b1ba-f28d6f127756"
+            ],
+            "notes": "reviews were not related to the originally generated persona, changed persoa to match the review_groups_hybrid file, so now reviews match"
+        },
+        {
+            "id": "P4",
+            "name": "Negative Experience and Support",
+            "description": "A user dissatisfied with their experience with the app and its support.",
+            "derived_from_group": "G4",
+            "goals": [
+                "To resolve issues with the app",
+                "To receive effective support"
+            ],
+            "pain_points": [
+                "Poor customer support",
+                "Negative experience with app functionality",
+                "Lack of responsiveness to user concerns"
+            ],
+            "context": [
+                "Expects effective support and resolution of issues",
+                "May have had previous positive experiences with similar apps"
+            ],
+            "constraints": [
+                "Limited patience for resolving issues",
+                "Expects empathy and understanding from support"
+            ],
+            "evidence_reviews": [
+                "fe985954-287b-4a4e-b312-4f5c40376cd9",
+                "1c67bd5a-5774-440e-a0ef-a713c18cb927",
+                "15fe4b34-503e-4209-905f-1ebf4f5af7e7",
+                "0bd92395-b2a4-45a1-8cd3-9ac1eedce04e",
+                "d183894a-ff3f-45c9-b60d-c01ab85d0f05"
+            ]
+        },
+        {
+           "id": "P5",
+            "name": "User Experiencing Inconsistent App Performance",
+            "description": "A user who finds the app helpful at times but is frustrated by occasional issues that disrupt their overall experience.",
+            "derived_from_group": "G5",
+            "goals": [
+              "Use the app reliably for meditation",
+              "Have a consistent and smooth experience"
+            ],
+            "pain_points": [
+              "App works well sometimes but fails unexpectedly",
+              "Inconsistent performance reduces trust in the app"
+            ],
+            "context": [
+              "Uses the app regularly but notices variability in quality",
+              "Has mixed feelings about continuing usage"
+            ],
+            "constraints": [
+              "Tolerance for inconsistency is low",
+              "May stop using the app if issues persist"
+            ],
+            "evidence_reviews": [
+                "d016708f-1504-41b6-b9e3-47d57ee0a6d2",
+                "9141c4e4-d3a4-4021-810a-b95b560cc424",
+                "fd4c9318-2bf5-48a8-b26c-f282e0ebd5ae",
+                "e02d8536-8846-493c-b677-f75a77be5cc2",
+                "f2200241-8d3f-4dda-a46b-8111e352503e"
+            ],
+            "notes": "It did not generate any pain points or constraints, the theme and content was wrong so it was rewritten "
+        }
+    ]
 }

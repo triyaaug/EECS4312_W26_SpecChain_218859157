@@ -2,23 +2,16 @@
 
 ## instructions:
 
-Please update to include:
+How to run this project!
 
 - App name: HeadSpace
 - Data collection method: Google Play Scraper
-- Original dataset
-- Final cleaned dataset
-- Exact commands to run pipeline
-
-# example
-
-Application: [Calm]
 
 Dataset:
 
 - reviews_raw.jsonl contains the collected reviews.
 - reviews_clean.jsonl contains the cleaned dataset.
-- The cleaned dataset contains 842 reviews.
+- Final cleaned dataset: 2335 reviews
 
 Repository Structure:
 
@@ -28,9 +21,8 @@ Repository Structure:
 - tests/ contains validation tests
 - metrics/ contains all metric files
 - src/ contains executable Python scripts
-- reflection/ contains the final reflection
 
-How to Run:
+Exact commands to run pipeline
 
 1. python src/00_validate_repo.py
 2. python src/02_clean.py

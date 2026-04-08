@@ -1,16 +1,120 @@
 {
   "tests": [
     {
-      "test_id": "T_hybrid_1",
-      "requirement_id": "FR_hybrid_1",
-      "scenario": "Save a workout entry without crashing",
+      "test_id": "TEST_1",
+      "requirement_id": "FR1",
+      "scenario": "Validate The system shall ensure that the meditation app launches without crashing or freezing.",
       "steps": [
-        "Open the workout logging feature",
-        "Enter workout information",
-        "Submit the workout"
+        "Perform the action described in requirement FR1"
       ],
-      "expected_result": "The workout is saved successfully and the application does not crash.",
-      "notes": "Revised the expected result to match the updated hybrid requirement."
+      "expected_result": "Requirement FR1 is satisfied"
+    },
+    {
+      "test_id": "TEST_2",
+      "requirement_id": "FR2",
+      "scenario": "Validate The system shall provide smooth loading and downloading of meditation content.",
+      "steps": [
+        "Perform the action described in requirement FR2"
+      ],
+      "expected_result": "Requirement FR2 is satisfied"
+    },
+    {
+      "test_id": "TEST_3",
+      "requirement_id": "FR3",
+      "scenario": "Validate The system shall provide transparent and clear pricing information for subscription services.",
+      "steps": [
+        "Perform the action described in requirement FR3"
+      ],
+      "expected_result": "Requirement FR3 is satisfied"
+    },
+    {
+      "test_id": "TEST_4",
+      "requirement_id": "FR4",
+      "scenario": "Validate The system shall allow users to easily manage or cancel their subscriptions.",
+      "steps": [
+        "Perform the action described in requirement FR4"
+      ],
+      "expected_result": "Requirement FR4 is satisfied"
+    },
+    {
+      "test_id": "TEST_5",
+      "requirement_id": "FR5",
+      "scenario": "Validate The system shall provide guided meditation content that supports users in improving their mental well-being.",
+      "steps": [
+        "Select a guided meditation session",
+        "Complete the session"
+      ],
+      "expected_result": "The session promotes relaxation or a positive mental state",
+      "notes": "Updated steps and expected result to reflect focus on positive mental well-being from G3"
+    },
+    {
+      "test_id": "TEST_6",
+      "requirement_id": "FR6",
+      "scenario": "Validate The system shall provide consistent access to meditation content that helps maintain positive emotional outcomes.",
+      "steps": [
+        "Use the application multiple times",
+        "Access meditation content in each session"
+      ],
+      "expected_result": "Content is consistently available and provides a positive experience",
+      "notes": "Updated to show consistent positive experience rather than personalization feature, change in G3"
+    },
+    {
+      "test_id": "TEST_7",
+      "requirement_id": "FR7",
+      "scenario": "Validate The system shall provide effective and responsive customer support.",
+      "steps": [
+        "Perform the action described in requirement FR7"
+      ],
+      "expected_result": "Requirement FR7 is satisfied"
+    },
+    {
+      "test_id": "TEST_8",
+      "requirement_id": "FR8",
+      "scenario": "Validate The system shall provide a consistent and reliable user experience across sessions.",
+      "steps": [
+        "Use the application multiple times",
+        "Access different features"
+      ],
+      "expected_result": "The application performs consistently without unexpected issues",
+      "notes": "Updated to reflect inconsistent performance issues identified in G5"
+    },
+    {
+      "test_id": "TEST_9",
+      "requirement_id": "FR9",
+      "scenario": "Validate The system shall minimize unexpected failures during normal usage.",
+      "steps": [
+        "Navigate through the application",
+        "Perform standard actions"
+      ],
+      "expected_result": "The system does not crash or fail during normal usage",
+      "notes": "Revised to match requirement focused on reducing unexpected failures from G5"
+    },
+    {
+      "test_id": "TEST_10",
+      "requirement_id": "NFR1",
+      "scenario": "Validate The system shall respond to user inputs within 2 seconds.",
+      "steps": [
+        "Perform the action described in requirement NFR1"
+      ],
+      "expected_result": "Requirement NFR1 is satisfied"
+    },
+    {
+      "test_id": "TEST_11",
+      "requirement_id": "NFR2",
+      "scenario": "Validate The system shall encrypt user data both in transit and at rest.",
+      "steps": [
+        "Perform the action described in requirement NFR2"
+      ],
+      "expected_result": "Requirement NFR2 is satisfied"
+    },
+    {
+      "test_id": "TEST_12",
+      "requirement_id": "NFR3",
+      "scenario": "Validate The system shall provide clear and concise instructions for users.",
+      "steps": [
+        "Perform the action described in requirement NFR3"
+      ],
+      "expected_result": "Requirement NFR3 is satisfied"
     }
   ]
 }
