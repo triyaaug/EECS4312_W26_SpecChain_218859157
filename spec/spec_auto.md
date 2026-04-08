@@ -1,68 +1,83 @@
+# Functional Requirements
+
+## Technical Requirements
 # Requirement ID: FR1
-- Description: The system shall ensure a stable and responsive user interface, with a maximum of 2 seconds loading time for any session, and no more than 1 crash per 100 sessions.
+- Description: The system shall ensure that the meditation app launches without crashing or freezing.
 - Source Persona: Technical Issues
 - Traceability: G1
-- Acceptance Criteria: 
-  - The app loads within 2 seconds 90% of the time.
-  - The app crashes less than 1 time per 100 sessions.
-  - 90% of users report a positive experience with app stability.
+- Acceptance Criteria: The app successfully launches and remains stable for at least 30 minutes without crashing or freezing.
 
 # Requirement ID: FR2
-- Description: The system shall provide clear and transparent subscription and payment practices, with no unexpected charges, and an easy refund process.
-- Source Persona: Subscription and Payment Issues
-- Traceability: G2
-- Acceptance Criteria: 
-  - 95% of users report understanding the subscription model.
-  - No unexpected charges are reported by users.
-  - Refund requests are processed within 3 business days.
-
-# Requirement ID: FR3
-- Description: The system shall offer a user-friendly interface that allows easy navigation and access to content, with clear categorization and search functionality.
-- Source Persona: Content and Features
-- Traceability: G3
-- Acceptance Criteria: 
-  - 85% of users report finding content easily.
-  - The app's navigation is rated 4.5/5 by users.
-  - Search functionality returns relevant results 90% of the time.
-
-# Requirement ID: FR4
-- Description: The system shall ensure the protection of user data, with clear and transparent data collection practices, and no sharing of personal data without explicit consent.
-- Source Persona: Privacy and Data Concerns
-- Traceability: G4
-- Acceptance Criteria: 
-  - 90% of users report understanding data collection practices.
-  - No unauthorized data breaches are reported.
-  - Users can opt-out of data collection and still use the app.
-
-# Requirement ID: FR5
-- Description: The system shall provide an effective meditation experience, with high-quality content, and features that support user goals and well-being.
-- Source Persona: Positive Experiences
-- Traceability: G5
-- Acceptance Criteria: 
-  - 90% of users report a positive experience with the app.
-  - Users report a reduction in stress and anxiety.
-  - The app is rated 4.5/5 overall by users.
-
-# Requirement ID: NFR1
-- Description: The system shall be available on multiple platforms (iOS, Android, Web), with a consistent user experience across all platforms.
-- Source Persona: Technical Issues, Positive Experiences
-- Traceability: G1, G5
-- Acceptance Criteria: 
-  - The app is available on iOS, Android, and Web platforms.
-  - 85% of users report a consistent experience across platforms.
-
-# Requirement ID: NFR2
-- Description: The system shall provide offline access to content, with a minimum of 50% of content available for offline use.
+- Description: The system shall provide smooth loading and downloading of meditation content.
 - Source Persona: Technical Issues
 - Traceability: G1
-- Acceptance Criteria: 
-  - 50% of content is available for offline use.
-  - Offline content is updated within 24 hours of online updates.
+- Acceptance Criteria: Content loads within 5 seconds of request, and downloads complete without interruption.
 
-# Requirement ID: NFR3
-- Description: The system shall ensure the security and integrity of user data, with enterprise-grade encryption and regular security audits.
-- Source Persona: Privacy and Data Concerns
+## Subscription and Payment Requirements
+# Requirement ID: FR3
+- Description: The system shall provide transparent and clear pricing information for subscription services.
+- Source Persona: Subscription and Payment Issues
+- Traceability: G2
+- Acceptance Criteria: Pricing information is easily accessible, and changes to pricing are clearly communicated to users.
+
+# Requirement ID: FR4
+- Description: The system shall allow users to easily manage or cancel their subscriptions.
+- Source Persona: Subscription and Payment Issues
+- Traceability: G2
+- Acceptance Criteria: Users can cancel or modify their subscriptions within 2 minutes of logging into their account.
+
+## Content and Features Requirements
+# Requirement ID: FR5
+- Description: The system shall provide a diverse library of meditation content.
+- Source Persona: Content and Features
+- Traceability: G3
+- Acceptance Criteria: The app offers at least 50 unique meditation sessions covering various topics and durations.
+
+# Requirement ID: FR6
+- Description: The system shall allow users to personalize their meditation experience through features.
+- Source Persona: Content and Features
+- Traceability: G3
+- Acceptance Criteria: Users can customize meditation sessions based on mood, goal, or duration.
+
+## Support Requirements
+# Requirement ID: FR7
+- Description: The system shall provide effective and responsive customer support.
+- Source Persona: Negative Experience and Support
 - Traceability: G4
-- Acceptance Criteria: 
-  - The app uses enterprise-grade encryption for data storage and transmission.
-  - Regular security audits are performed and reported to users.
+- Acceptance Criteria: Support requests receive a response within 2 hours, and issues are resolved within 24 hours.
+
+## General Requirements
+# Requirement ID: FR8
+- Description: The system shall ensure that user data is secure and protected.
+- Source Persona: Positive Experience
+- Traceability: G5
+- Acceptance Criteria: The app complies with major data protection regulations (e.g., GDPR, CCPA).
+
+# Requirement ID: FR9
+- Description: The system shall provide an easy-to-use interface for users to navigate and access meditation content.
+- Source Persona: Positive Experience
+- Traceability: G5
+- Acceptance Criteria: Users can find and start a meditation session within 3 clicks.
+
+# Non-Functional Requirements
+
+## Performance Requirements
+# Requirement ID: NFR1
+- Description: The system shall respond to user inputs within 2 seconds.
+- Source Persona: Technical Issues
+- Traceability: G1
+- Acceptance Criteria: The app responds to user interactions (e.g., clicks, scrolls) within 2 seconds.
+
+## Security Requirements
+# Requirement ID: NFR2
+- Description: The system shall encrypt user data both in transit and at rest.
+- Source Persona: Positive Experience
+- Traceability: G5
+- Acceptance Criteria: The app uses industry-standard encryption protocols (e.g., TLS, AES).
+
+## Usability Requirements
+# Requirement ID: NFR3
+- Description: The system shall provide clear and concise instructions for users.
+- Source Persona: Content and Features
+- Traceability: G3
+- Acceptance Criteria: Users can complete a meditation session without needing additional support or guidance.

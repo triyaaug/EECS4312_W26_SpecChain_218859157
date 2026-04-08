@@ -8,8 +8,8 @@
                 "b9ecbe4a-2951-476b-9c0b-d61a582b5c4f",
                 "6d0be882-a490-435e-876f-372c830d84d9",
                 "d4d23acc-aea2-43be-94e2-d0258793cd74",
-                "d088eee2-e8c1-43fe-9175-0fbcb2212583",
                 "5ca67763-7ccd-48f4-bd03-31960ae51990",
+                "d088eee2-e8c1-43fe-9175-0fbcb2212583",
                 "3dde7f59-d44f-40ba-9501-ab3a7de6f69d",
                 "fde10934-2cf0-466c-a723-3ff1bcc28f86",
                 "801923d5-fbc1-4623-9660-778684a67b4b",
@@ -24,6 +24,10 @@
                 "24138823-e4ce-4fa4-bbb2-cc08bf2354eb",
                 "38148569-58ab-4035-85a9-e0fa5322fed4",
                 "8229a631-4dae-44e6-9ca7-614792123a31"
+            ],
+            "example_reviews": [
+                "headspace one time favorite apps still use least day however since addition ebb ai headspace added app functionality gotten worse take forever open often crash despite downloading update additionally used able download much content use offline really enjoyed travel high hope mediation app like headspace would safe enshitification sure anymore",
+                "good app recently crashing lot anyone idea"
             ]
         },
         {
@@ -36,9 +40,15 @@
                 "a4ccacbf-b2ea-46ec-8e90-3fd7a4f15184",
                 "c6d23b22-290f-4f63-8e93-66a50f52fff1",
                 "13a27745-13c7-48f1-a372-6e5ee40be8e4",
-                "5b05d887-0411-44dd-9a55-18e7aab9fad0",
+                "052d42c5-97dd-4aff-9353-67ef77b1a40b",
+                "5dfb4d1c-331f-4387-93e1-1897240d7f8c",
+                "2181f1b1-4f60-4fdd-b0bf-f13efd235d50",
                 "1229506b-7873-4e39-8670-4e0f14b60664",
                 "23390682-be0a-495f-8320-5da2db0d82b4"
+            ],
+            "example_reviews": [
+                "ask subscription every freaking vdo",
+                "sudden price increase doubled cost app notification change found subscription renewed"
             ]
         },
         {
@@ -48,31 +58,47 @@
                 "d3e4736a-1aa7-4cd5-8501-1ea0805c7867",
                 "49ee2835-5764-4956-afce-3aa857ac342d",
                 "a87c08c2-155e-4769-8a94-be20322bf4a9",
-                "080ce8bf-c700-4334-be7a-94aee09b6473",
                 "73496ae8-9050-4c58-b4de-8c6be4ffe6d3",
+                "0d17b761-495b-434a-b1ba-f28d6f127756",
                 "994a69f1-e765-412f-9157-fecdb4a32bd1",
-                "767ed037-efc7-41b0-8424-bb5d73a419d0"
+                "767ed037-efc7-41b0-8424-bb5d73a419d0",
+                "19b40bdc-d8e8-49a1-bf2e-095d07d9c908"
+            ],
+            "example_reviews": [
+                "incredible app get free headspace teen really helped look world positively ten ten",
+                "wonderful magical healing mindset regulator love"
             ]
         },
         {
             "group_id": "G4",
-            "theme": "Privacy and Data Concerns",
+            "theme": "Negative Experience and Support",
             "review_ids": [
                 "fe985954-287b-4a4e-b312-4f5c40376cd9",
                 "1c67bd5a-5774-440e-a0ef-a713c18cb927",
-                "6bff7bdc-a9e6-46e0-956f-b2a85e1015ba"
+                "15fe4b34-503e-4209-905f-1ebf4f5af7e7",
+                "0bd92395-b2a4-45a1-8cd3-9ac1eedce04e",
+                "d183894a-ff3f-45c9-b60d-c01ab85d0f05",
+                "f4e4a1b5-133e-42d9-940e-fe28b20975d3",
+                "1279a981-6e3f-457b-b6eb-4de986a84f1a",
+                "6505a842-62be-44b3-9a89-b89c2ba3116c"
+            ],
+            "example_reviews": [
+                "app fantastic earth collecting data quote new privacy policy send respond email message chat communication headspace collect personal information include body content communication power machine learning algorithm ai personalise advert philosophical contradiction app seems greed driven breech privacy uninstalled",
+                "sick people feeding sick people make sick"
             ]
         },
         {
             "group_id": "G5",
-            "theme": "Positive Experiences",
+            "theme": "Positive Experience",
             "review_ids": [
-                "d183894a-ff3f-45c9-b60d-c01ab85d0f05",
+                "d016708f-1504-41b6-b9e3-47d57ee0a6d2",
                 "9141c4e4-d3a4-4021-810a-b95b560cc424",
-                "0d17b761-495b-434a-b1ba-f28d6f127756",
-                "19b40bdc-d8e8-49a1-bf2e-095d07d9c908",
+                "fd4c9318-2bf5-48a8-b26c-f282e0ebd5ae",
                 "e02d8536-8846-493c-b677-f75a77be5cc2",
                 "f2200241-8d3f-4dda-a46b-8111e352503e"
+            ],
+            "example_reviews": [
+                "daily necessity calm experience"
             ]
         }
     ]

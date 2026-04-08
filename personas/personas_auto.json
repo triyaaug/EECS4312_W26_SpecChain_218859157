@@ -1,56 +1,149 @@
 {
     "personas": [
         {
-            "group_id": "G1",
+            "id": "P1",
             "name": "Technical Issues",
-            "summary": "Users in this group are frustrated with the app's technical performance, citing frequent crashes, slow loading times, and issues with offline content. They express disappointment and frustration with the app's decline in quality.",
-            "key_reviews": [
-                "headspace one time favorite apps still use least day however since addition ebb ai headspace added app functionality gotten worse take forever open often crash despite downloading update additionally used able download much content use offline really enjoyed travel high hope mediation app like headspace would safe enshitification sure anymore",
-                "good app recently crashing lot anyone idea",
-                "update becoming buggy crash way often lag playing session way much irritating especially app meant mediation",
-                "paid high amount app keep crashing mid session completely break rhythm concentration"
+            "description": "A frustrated user experiencing technical issues with the meditation app, such as crashes and slow performance.",
+            "derived_from_group": "G1",
+            "goals": [
+                "To use the meditation app without technical issues",
+                "To access and download content smoothly"
+            ],
+            "pain_points": [
+                "Frequent app crashes",
+                "Slow loading times",
+                "Difficulty downloading and accessing content",
+                "Poor performance after updates"
+            ],
+            "context": [
+                "Uses the app for meditation and relaxation",
+                "Expects a seamless user experience",
+                "May have tried troubleshooting steps without success"
+            ],
+            "constraints": [
+                "Limited technical expertise",
+                "Dependence on the app for mental wellness"
+            ],
+            "evidence_reviews": [
+                "889a8581-6071-4048-a310-c26afb49795d",
+                "b9ecbe4a-2951-476b-9c0b-d61a582b5c4f",
+                "6d0be882-a490-435e-876f-372c830d84d9",
+                "d4d23acc-aea2-43be-94e2-d0258793cd74",
+                "5ca67763-7ccd-48f4-bd03-31960ae51990"
             ]
         },
         {
-            "group_id": "G2",
+            "id": "P2",
             "name": "Subscription and Payment Issues",
-            "summary": "Users in this group are unhappy with the app's subscription model and payment practices, citing unexpected charges, high prices, and difficulties with refunds. They feel that the app is overpriced and that the subscription model is aggressive and unfair.",
-            "key_reviews": [
-                "ask subscription every freaking vdo",
-                "sudden price increase doubled cost app notification change found subscription renewed",
-                "completely paywalled fifty quid subscription year overpriced worth",
-                "ninety nine nine hundred ninety nine content locked behind paywall"
+            "description": "A user frustrated with the app's subscription model and payment issues.",
+            "derived_from_group": "G2",
+            "goals": [
+                "To access meditation content without excessive costs",
+                "To manage subscription and payment easily"
+            ],
+            "pain_points": [
+                "High subscription costs",
+                "Unexpected charges",
+                "Difficulty managing or canceling subscription",
+                "Lack of transparency in payment and subscription details"
+            ],
+            "context": [
+                "Values affordability and flexibility in subscription services",
+                "May be sensitive to price changes and unexpected charges"
+            ],
+            "constraints": [
+                "Budget constraints",
+                "Expectation of clear and fair pricing"
+            ],
+            "evidence_reviews": [
+                "fc36cf61-52aa-4982-b8e8-6b2010ad1486",
+                "a818a7e5-8c84-4cd7-b69c-62513167aa73",
+                "5dd05804-f714-43ec-88a1-dde44431fcbf",
+                "a4ccacbf-b2ea-46ec-8e90-3fd7a4f15184",
+                "c6d23b22-290f-4f63-8e93-66a50f52fff1"
             ]
         },
         {
-            "group_id": "G3",
+            "id": "P3",
             "name": "Content and Features",
-            "summary": "Users in this group are generally satisfied with the app's content and features, citing the app's effectiveness in helping them relax and manage stress. However, some users suggest that the app's interface could be improved and that more features would be beneficial.",
-            "key_reviews": [
-                "incredible app get free headspace teen really helped look world positively ten ten",
-                "wonderful magical healing mindset regulator love",
-                "longtime user app absolutely loved also recommended plenty people back lately discontent ui way much content super cluttered headspace basic offering powerful one loved easy navigation succinct course guidance would sincerely urge developer make simpler ui headspace user swayed new content added every month"
+            "description": "A user interested in a variety of meditation content and features.",
+            "derived_from_group": "G3",
+            "goals": [
+                "To access diverse and engaging meditation content",
+                "To use features that enhance meditation practice"
+            ],
+            "pain_points": [
+                "Limited content variety",
+                "Outdated or unengaging content",
+                "Lack of features to personalize meditation experience"
+            ],
+            "context": [
+                "Values variety and quality in meditation content",
+                "Seeks features that support a personalized meditation practice"
+            ],
+            "constraints": [
+                "May have specific preferences for meditation content",
+                "Expects content to be engaging and relevant"
+            ],
+            "evidence_reviews": [
+                "d3e4736a-1aa7-4cd5-8501-1ea0805c7867",
+                "49ee2835-5764-4956-afce-3aa857ac342d",
+                "a87c08c2-155e-4769-8a94-be20322bf4a9",
+                "73496ae8-9050-4c58-b4de-8c6be4ffe6d3",
+                "0d17b761-495b-434a-b1ba-f28d6f127756"
             ]
         },
         {
-            "group_id": "G4",
-            "name": "Privacy and Data Concerns",
-            "summary": "Users in this group are concerned about the app's data collection practices and feel that the app's privacy policy is unclear or invasive. They express skepticism about the app's use of their personal data and worry about potential breaches of privacy.",
-            "key_reviews": [
-                "app fantastic earth collecting data quote new privacy policy send respond email message chat communication headspace collect personal information include body content communication power machine learning algorithm ai personalise advert philosophical contradiction app seems greed driven breech privacy uninstalled",
-                "sick people feeding sick people make sick",
-                "concluded email headspace support past week seems way see opt coach using ai chatbot replying headspace care member believe use existing content library beyond said got back thread would disclose particular friend circle like comfortable possibly sent ai tool company verify"
+            "id": "P4",
+            "name": "Negative Experience and Support",
+            "description": "A user dissatisfied with their experience with the app and its support.",
+            "derived_from_group": "G4",
+            "goals": [
+                "To resolve issues with the app",
+                "To receive effective support"
+            ],
+            "pain_points": [
+                "Poor customer support",
+                "Negative experience with app functionality",
+                "Lack of responsiveness to user concerns"
+            ],
+            "context": [
+                "Expects effective support and resolution of issues",
+                "May have had previous positive experiences with similar apps"
+            ],
+            "constraints": [
+                "Limited patience for resolving issues",
+                "Expects empathy and understanding from support"
+            ],
+            "evidence_reviews": [
+                "fe985954-287b-4a4e-b312-4f5c40376cd9",
+                "1c67bd5a-5774-440e-a0ef-a713c18cb927",
+                "15fe4b34-503e-4209-905f-1ebf4f5af7e7",
+                "0bd92395-b2a4-45a1-8cd3-9ac1eedce04e",
+                "d183894a-ff3f-45c9-b60d-c01ab85d0f05"
             ]
         },
         {
-            "group_id": "G5",
-            "name": "Positive Experiences",
-            "summary": "Users in this group are extremely satisfied with the app, citing its effectiveness in helping them relax and manage stress. They appreciate the app's features and user experience, and some users mention that the app has become a daily necessity.",
-            "key_reviews": [
-                "application work android device barely used raised concern three time customer service refund request annual fee response script copied pasted three time empathy understanding situation save time money even try app",
-                "daily necessity calm experience",
-                "head space awsome",
-                "great lesson many option"
+            "id": "P5",
+            "name": "Positive Experience",
+            "description": "A user satisfied with their experience using the meditation app.",
+            "derived_from_group": "G5",
+            "goals": [
+                "To continue using the app for meditation and relaxation",
+                "To explore more features and content"
+            ],
+            "pain_points": [],
+            "context": [
+                "Values the app for its positive impact on mental wellness",
+                "May recommend the app to others"
+            ],
+            "constraints": [],
+            "evidence_reviews": [
+                "d016708f-1504-41b6-b9e3-47d57ee0a6d2",
+                "9141c4e4-d3a4-4021-810a-b95b560cc424",
+                "fd4c9318-2bf5-48a8-b26c-f282e0ebd5ae",
+                "e02d8536-8846-493c-b677-f75a77be5cc2",
+                "f2200241-8d3f-4dda-a46b-8111e352503e"
             ]
         }
     ]

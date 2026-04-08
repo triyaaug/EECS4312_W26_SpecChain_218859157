@@ -2,7 +2,7 @@
     {
         "test_id": "TEST_1",
         "requirement_id": "FR1",
-        "scenario": "Validate The system shall ensure a stable and responsive user interface, with a maximum of 2 seconds loading time for any session, and no more than 1 crash per 100 sessions.",
+        "scenario": "Validate The system shall ensure that the meditation app launches without crashing or freezing.",
         "steps": [
             "Perform the action described in requirement FR1"
         ],
@@ -11,7 +11,7 @@
     {
         "test_id": "TEST_2",
         "requirement_id": "FR2",
-        "scenario": "Validate The system shall provide clear and transparent subscription and payment practices, with no unexpected charges, and an easy refund process.",
+        "scenario": "Validate The system shall provide smooth loading and downloading of meditation content.",
         "steps": [
             "Perform the action described in requirement FR2"
         ],
@@ -20,7 +20,7 @@
     {
         "test_id": "TEST_3",
         "requirement_id": "FR3",
-        "scenario": "Validate The system shall offer a user-friendly interface that allows easy navigation and access to content, with clear categorization and search functionality.",
+        "scenario": "Validate The system shall provide transparent and clear pricing information for subscription services.",
         "steps": [
             "Perform the action described in requirement FR3"
         ],
@@ -29,7 +29,7 @@
     {
         "test_id": "TEST_4",
         "requirement_id": "FR4",
-        "scenario": "Validate The system shall ensure the protection of user data, with clear and transparent data collection practices, and no sharing of personal data without explicit consent.",
+        "scenario": "Validate The system shall allow users to easily manage or cancel their subscriptions.",
         "steps": [
             "Perform the action described in requirement FR4"
         ],
@@ -38,7 +38,7 @@
     {
         "test_id": "TEST_5",
         "requirement_id": "FR5",
-        "scenario": "Validate The system shall provide an effective meditation experience, with high-quality content, and features that support user goals and well-being.",
+        "scenario": "Validate The system shall provide a diverse library of meditation content.",
         "steps": [
             "Perform the action described in requirement FR5"
         ],
@@ -46,26 +46,62 @@
     },
     {
         "test_id": "TEST_6",
+        "requirement_id": "FR6",
+        "scenario": "Validate The system shall allow users to personalize their meditation experience through features.",
+        "steps": [
+            "Perform the action described in requirement FR6"
+        ],
+        "expected_result": "Requirement FR6 is satisfied"
+    },
+    {
+        "test_id": "TEST_7",
+        "requirement_id": "FR7",
+        "scenario": "Validate The system shall provide effective and responsive customer support.",
+        "steps": [
+            "Perform the action described in requirement FR7"
+        ],
+        "expected_result": "Requirement FR7 is satisfied"
+    },
+    {
+        "test_id": "TEST_8",
+        "requirement_id": "FR8",
+        "scenario": "Validate The system shall ensure that user data is secure and protected.",
+        "steps": [
+            "Perform the action described in requirement FR8"
+        ],
+        "expected_result": "Requirement FR8 is satisfied"
+    },
+    {
+        "test_id": "TEST_9",
+        "requirement_id": "FR9",
+        "scenario": "Validate The system shall provide an easy-to-use interface for users to navigate and access meditation content.",
+        "steps": [
+            "Perform the action described in requirement FR9"
+        ],
+        "expected_result": "Requirement FR9 is satisfied"
+    },
+    {
+        "test_id": "TEST_10",
         "requirement_id": "NFR1",
-        "scenario": "Validate The system shall be available on multiple platforms (iOS, Android, Web), with a consistent user experience across all platforms.",
+        "scenario": "Validate The system shall respond to user inputs within 2 seconds.",
         "steps": [
             "Perform the action described in requirement NFR1"
         ],
         "expected_result": "Requirement NFR1 is satisfied"
     },
     {
-        "test_id": "TEST_7",
+        "test_id": "TEST_11",
         "requirement_id": "NFR2",
-        "scenario": "Validate The system shall provide offline access to content, with a minimum of 50% of content available for offline use.",
+        "scenario": "Validate The system shall encrypt user data both in transit and at rest.",
         "steps": [
             "Perform the action described in requirement NFR2"
         ],
         "expected_result": "Requirement NFR2 is satisfied"
     },
     {
-        "test_id": "TEST_8",
+        "test_id": "TEST_12",
         "requirement_id": "NFR3",
-        "scenario": "Validate The system shall ensure the security and integrity of user data, with enterprise-grade encryption and regular security audits.",
+        "scenario": "Validate The system shall provide clear and concise instructions for users.",
         "steps": [
             "Perform the action described in requirement NFR3"
         ],
