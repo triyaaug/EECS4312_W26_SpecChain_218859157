@@ -1,0 +1,57 @@
+{
+    "personas": [
+        {
+            "group_id": "G1",
+            "name": "Technical Issues",
+            "summary": "Users in this group are frustrated with the app's technical performance, citing frequent crashes, slow loading times, and issues with offline content. They express disappointment and frustration with the app's decline in quality.",
+            "key_reviews": [
+                "headspace one time favorite apps still use least day however since addition ebb ai headspace added app functionality gotten worse take forever open often crash despite downloading update additionally used able download much content use offline really enjoyed travel high hope mediation app like headspace would safe enshitification sure anymore",
+                "good app recently crashing lot anyone idea",
+                "update becoming buggy crash way often lag playing session way much irritating especially app meant mediation",
+                "paid high amount app keep crashing mid session completely break rhythm concentration"
+            ]
+        },
+        {
+            "group_id": "G2",
+            "name": "Subscription and Payment Issues",
+            "summary": "Users in this group are unhappy with the app's subscription model and payment practices, citing unexpected charges, high prices, and difficulties with refunds. They feel that the app is overpriced and that the subscription model is aggressive and unfair.",
+            "key_reviews": [
+                "ask subscription every freaking vdo",
+                "sudden price increase doubled cost app notification change found subscription renewed",
+                "completely paywalled fifty quid subscription year overpriced worth",
+                "ninety nine nine hundred ninety nine content locked behind paywall"
+            ]
+        },
+        {
+            "group_id": "G3",
+            "name": "Content and Features",
+            "summary": "Users in this group are generally satisfied with the app's content and features, citing the app's effectiveness in helping them relax and manage stress. However, some users suggest that the app's interface could be improved and that more features would be beneficial.",
+            "key_reviews": [
+                "incredible app get free headspace teen really helped look world positively ten ten",
+                "wonderful magical healing mindset regulator love",
+                "longtime user app absolutely loved also recommended plenty people back lately discontent ui way much content super cluttered headspace basic offering powerful one loved easy navigation succinct course guidance would sincerely urge developer make simpler ui headspace user swayed new content added every month"
+            ]
+        },
+        {
+            "group_id": "G4",
+            "name": "Privacy and Data Concerns",
+            "summary": "Users in this group are concerned about the app's data collection practices and feel that the app's privacy policy is unclear or invasive. They express skepticism about the app's use of their personal data and worry about potential breaches of privacy.",
+            "key_reviews": [
+                "app fantastic earth collecting data quote new privacy policy send respond email message chat communication headspace collect personal information include body content communication power machine learning algorithm ai personalise advert philosophical contradiction app seems greed driven breech privacy uninstalled",
+                "sick people feeding sick people make sick",
+                "concluded email headspace support past week seems way see opt coach using ai chatbot replying headspace care member believe use existing content library beyond said got back thread would disclose particular friend circle like comfortable possibly sent ai tool company verify"
+            ]
+        },
+        {
+            "group_id": "G5",
+            "name": "Positive Experiences",
+            "summary": "Users in this group are extremely satisfied with the app, citing its effectiveness in helping them relax and manage stress. They appreciate the app's features and user experience, and some users mention that the app has become a daily necessity.",
+            "key_reviews": [
+                "application work android device barely used raised concern three time customer service refund request annual fee response script copied pasted three time empathy understanding situation save time money even try app",
+                "daily necessity calm experience",
+                "head space awsome",
+                "great lesson many option"
+            ]
+        }
+    ]
+}

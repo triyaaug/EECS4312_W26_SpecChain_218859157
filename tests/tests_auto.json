@@ -1,15 +1,74 @@
-{
-  "tests": [
+[
     {
-      "test_id": "T_auto_1",
-      "requirement_id": "FR_auto_1",
-      "scenario": "Logging a workout without crashing",
-      "steps": [
-        "Open the workout logging screen",
-        "Enter workout details",
-        "Submit the workout"
-      ],
-      "expected_result": "The workout is saved successfully and the application remains stable."
+        "test_id": "TEST_1",
+        "requirement_id": "FR1",
+        "scenario": "Validate The system shall ensure a stable and responsive user interface, with a maximum of 2 seconds loading time for any session, and no more than 1 crash per 100 sessions.",
+        "steps": [
+            "Perform the action described in requirement FR1"
+        ],
+        "expected_result": "Requirement FR1 is satisfied"
+    },
+    {
+        "test_id": "TEST_2",
+        "requirement_id": "FR2",
+        "scenario": "Validate The system shall provide clear and transparent subscription and payment practices, with no unexpected charges, and an easy refund process.",
+        "steps": [
+            "Perform the action described in requirement FR2"
+        ],
+        "expected_result": "Requirement FR2 is satisfied"
+    },
+    {
+        "test_id": "TEST_3",
+        "requirement_id": "FR3",
+        "scenario": "Validate The system shall offer a user-friendly interface that allows easy navigation and access to content, with clear categorization and search functionality.",
+        "steps": [
+            "Perform the action described in requirement FR3"
+        ],
+        "expected_result": "Requirement FR3 is satisfied"
+    },
+    {
+        "test_id": "TEST_4",
+        "requirement_id": "FR4",
+        "scenario": "Validate The system shall ensure the protection of user data, with clear and transparent data collection practices, and no sharing of personal data without explicit consent.",
+        "steps": [
+            "Perform the action described in requirement FR4"
+        ],
+        "expected_result": "Requirement FR4 is satisfied"
+    },
+    {
+        "test_id": "TEST_5",
+        "requirement_id": "FR5",
+        "scenario": "Validate The system shall provide an effective meditation experience, with high-quality content, and features that support user goals and well-being.",
+        "steps": [
+            "Perform the action described in requirement FR5"
+        ],
+        "expected_result": "Requirement FR5 is satisfied"
+    },
+    {
+        "test_id": "TEST_6",
+        "requirement_id": "NFR1",
+        "scenario": "Validate The system shall be available on multiple platforms (iOS, Android, Web), with a consistent user experience across all platforms.",
+        "steps": [
+            "Perform the action described in requirement NFR1"
+        ],
+        "expected_result": "Requirement NFR1 is satisfied"
+    },
+    {
+        "test_id": "TEST_7",
+        "requirement_id": "NFR2",
+        "scenario": "Validate The system shall provide offline access to content, with a minimum of 50% of content available for offline use.",
+        "steps": [
+            "Perform the action described in requirement NFR2"
+        ],
+        "expected_result": "Requirement NFR2 is satisfied"
+    },
+    {
+        "test_id": "TEST_8",
+        "requirement_id": "NFR3",
+        "scenario": "Validate The system shall ensure the security and integrity of user data, with enterprise-grade encryption and regular security audits.",
+        "steps": [
+            "Perform the action described in requirement NFR3"
+        ],
+        "expected_result": "Requirement NFR3 is satisfied"
     }
-  ]
-}
+]

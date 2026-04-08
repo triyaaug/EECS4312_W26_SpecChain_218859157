@@ -1,3 +1,3 @@
 {
-    "prompt": ""
+  "prompt": "You are given user reviews from a meditation app (Headspace).\n\nGroup these reviews into 5 meaningful categories based on common themes.\n\nEach group must include:\n- group_id (G1, G2, G3, G4, G5)\n- theme (short description)\n- review_ids (list of reviewId values)\n\nIMPORTANT: Return only valid JSON. No explanations, no extra text, no markdown, no comments.\n\nReturn ONLY valid JSON in this format:\n{\n  \"groups\": [\n    {\n      \"group_id\": \"G1\",\n      \"theme\": \"...\",\n      \"review_ids\": [\"id1\", \"id2\"]\n    }\n  ]\n}"
 }
